@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var countLabel: UILabel!
     
     var count = 1
+    var check = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +28,18 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         print("Button Pressed")
-        count = count + 1
         
-        if (count>5){
-            count = 1
+        if(count == 5){
+            check = 1
+        } else if(count == 1){
+            check = 0
         }
+        if check == 0{
+            count+=1
+        } else if(check == 1){
+            count-=1
+        }
+            
         ailenimageViewer.image = UIImage(named:"frame\(count).png")
         countLabel.text = "frame\(count).png"
         
