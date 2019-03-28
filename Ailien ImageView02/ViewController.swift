@@ -10,16 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ailenimageViewer: UIImageView!
+    @IBOutlet weak var countLabel: UILabel!
+    
+    var count = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        ailenimageViewer.image = UIImage(named:"frame1.png")
+        countLabel.text = "frame\(count).png"
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("Button Pressed")
+        count = count + 1
+        
+        if (count>5){
+            count = 1
+        }
+        ailenimageViewer.image = UIImage(named:"frame\(count).png")
+        countLabel.text = "frame\(count).png"
+        
     }
-
-
+    
 }
 

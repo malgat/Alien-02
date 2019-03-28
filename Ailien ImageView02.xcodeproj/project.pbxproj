@@ -14,6 +14,11 @@
 		CD154474224C914B0066FF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD154472224C914B0066FF9B /* LaunchScreen.storyboard */; };
 		CD15447F224C914B0066FF9B /* Ailien_ImageView02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15447E224C914B0066FF9B /* Ailien_ImageView02Tests.swift */; };
 		CD15448A224C914B0066FF9B /* Ailien_ImageView02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD154489224C914B0066FF9B /* Ailien_ImageView02UITests.swift */; };
+		CD15449C224C95C00066FF9B /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD154497224C95C00066FF9B /* frame1.png */; };
+		CD15449D224C95C00066FF9B /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = CD154498224C95C00066FF9B /* frame4.png */; };
+		CD15449E224C95C00066FF9B /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD154499224C95C00066FF9B /* frame2.png */; };
+		CD15449F224C95C00066FF9B /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = CD15449A224C95C00066FF9B /* frame5.png */; };
+		CD1544A0224C95C00066FF9B /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD15449B224C95C00066FF9B /* frame3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CD154485224C914B0066FF9B /* Ailien ImageView02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ailien ImageView02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD154489224C914B0066FF9B /* Ailien_ImageView02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ailien_ImageView02UITests.swift; sourceTree = "<group>"; };
 		CD15448B224C914B0066FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD154497224C95C00066FF9B /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		CD154498224C95C00066FF9B /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		CD154499224C95C00066FF9B /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		CD15449A224C95C00066FF9B /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		CD15449B224C95C00066FF9B /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		CD154468224C914B0066FF9B /* Ailien ImageView02 */ = {
 			isa = PBXGroup;
 			children = (
+				CD154497224C95C00066FF9B /* frame1.png */,
+				CD154499224C95C00066FF9B /* frame2.png */,
+				CD15449B224C95C00066FF9B /* frame3.png */,
+				CD154498224C95C00066FF9B /* frame4.png */,
+				CD15449A224C95C00066FF9B /* frame5.png */,
 				CD154469224C914B0066FF9B /* AppDelegate.swift */,
 				CD15446B224C914B0066FF9B /* ViewController.swift */,
 				CD15446D224C914B0066FF9B /* Main.storyboard */,
@@ -232,7 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD15449D224C95C00066FF9B /* frame4.png in Resources */,
+				CD15449F224C95C00066FF9B /* frame5.png in Resources */,
 				CD154474224C914B0066FF9B /* LaunchScreen.storyboard in Resources */,
+				CD1544A0224C95C00066FF9B /* frame3.png in Resources */,
+				CD15449E224C95C00066FF9B /* frame2.png in Resources */,
+				CD15449C224C95C00066FF9B /* frame1.png in Resources */,
 				CD154471224C914B0066FF9B /* Assets.xcassets in Resources */,
 				CD15446F224C914B0066FF9B /* Main.storyboard in Resources */,
 			);
